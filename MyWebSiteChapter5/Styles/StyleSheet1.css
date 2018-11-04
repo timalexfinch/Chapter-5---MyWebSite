@@ -1,0 +1,141 @@
+﻿body {
+    background-color: lightcyan;
+    color: darkgreen;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-image: url('../Content/banners/mountains.jpg');
+}
+
+    header h1 {
+        height: 192px;
+        font-size: 200%;
+        text-align: center;
+        color: darkblue;
+    }
+/* only h1 in <header> */
+
+address {
+    text-align: right;
+}
+
+h2 {
+    color: blue;
+    /*background-color: yellow;*/
+}
+
+    h2.blur {
+        text-shadow: 0 0 1px;
+    }
+    /* black shadow */
+
+    h2.neon {
+        text-shadow: 0 0 3px #0000ff;
+    }
+    /* blue glow */
+
+    h2.fire {
+        text-shadow: 2px 2px 8px #ff0000;
+    }
+/* HELLFIRE! */
+
+
+nav {
+    text-align: center;
+    font-size: larger;
+}
+
+/*a {
+    border-bottom: thin solid;
+    color: rgb(0,0,192);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+    a:visited {
+        color: rgb(160,0,160);
+    }
+
+    a:active {
+        color: rgb(192,0,0);
+    }
+
+    a:active, a:focus, a:hover {
+        border-bottom-width: medium;
+    }*/
+
+a {
+    color: mediumpurple;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a:hover {
+        background-color: #77ff77;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: purple;
+        text-decoration: none;
+    }
+
+    a:active {
+        background-color: hotpink;
+        text-decoration: underline;
+    }
+
+ 
+
+blockquote {
+    font-style: italic;
+}
+/* Lao Tzu's quote */
+
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    color: darkblue;
+    background-image: url("../Content/backgrounds/wood-pine.png");
+    clear: both;
+}
+
+.QuantaHeader {
+    background-color: yellow;
+}
+
+#Warning {
+    color: red;
+}
+
+.rightimg {
+    float: right;
+}
+
+    .rightimg figcaption {
+        background-color: white;
+        color: red;
+        text-align: center;
+        font-size: 90%;
+    }
+
+.center {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    padding: 15px;
+}
+
+table, th, td {
+    border: 3px dashed red;
+}
+
+table {
+    width: 70%;
+    background-color: #ffffee;
+    text-align: center;
+}
